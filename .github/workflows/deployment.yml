@@ -25,9 +25,9 @@ jobs:
         - name: Set Up Node Js
           uses: actions/setup-node@v3
         - name: Install dependencies
-          run: npm run  build
+          run:  npm run  build
         - name: Deploy App
-          run: echo "Code Deployed"
+          run:  echo "Code Deployed"
 
               
 
